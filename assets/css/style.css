@@ -2,4 +2,112 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.altezza{
+    height: 100vh;
+}
+
+.flex{
+    display: flex; 
+}
+
+
+/*******************************
+            MENU
+********************************/
+
+
+.menu-nav{
+    background-color: black;
+    flex-direction: column;
+    width: 15rem;
+    overflow-y: hidden;
+    height: calc(100vh - 5rem);
+    position: relative;
+}
+
+.logo{
+    padding: 1rem;
+    width: 75%;
+}
+
+.ricerche{
+    color: white;
+    margin-top: 10%;
+    font-size: x-large;
+    margin-left: 1.3rem;
+}
+
+.ricerche p{
+    margin-left: 0.7rem;
+}
+
+
+/*LIBRERIA*/
+#libreria{
+    margin-top: 2rem;
+    color: white;
+}
+
+.nav-playlist{
+    font-size: x-large;
+    margin-left: 1.3rem;
+}
+
+.ricerche-playlist{
+    margin-top: 10%;
+}
+
+.ricerche-playlist > p{
+    margin-left: 0.7rem;
+}
+
+#libreria > p{
+    margin-left: 1.3rem;
+}
+
+
+.creazione-playlist{
+    list-style-type: none;
+    margin-top: 5%;
+    font-size: 0.9rem;
+}
+
+.creazione-playlist li{
+    padding-top: 1rem;
+}
+
+
+#menu-footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+#menu-footer div{
+    margin-left: 0.7rem;
+}
+
+.installa-app{
+    margin-bottom: 0.5rem;
+}
+
+.installa-app p{
+    margin-left: 0.7rem;
+}
+
+.user{
+    margin-top: 0.5rem;
+}
+
+.user h3{
+    margin-left: 0.7rem;
 }
