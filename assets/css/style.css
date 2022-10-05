@@ -7,10 +7,12 @@
 
 .altezza{
     height: 100vh;
+    background-color: #141922;
 }
 
 .flex{
-    display: flex; 
+    display: flex;
+    position:relative; 
 }
 
 
@@ -110,4 +112,59 @@
 
 .user h3{
     margin-left: 0.7rem;
+}
+
+
+
+
+
+/*******************************
+            UPGRADE
+********************************/
+
+.upgrade{
+    position: fixed;
+    z-index: 1;
+    width: calc(100% - 15rem);
+    height: auto;
+    padding: 2.5rem;
+    background-color: black;
+    opacity: 0.4;
+    text-align: right;
+    right: 0;
+}
+
+
+.upgrade a{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/*******************************
+           MENU LISTE
+********************************/
+
+.menu-liste{
+    width: calc(100% - 15rem);
+    height: auto;
+    padding: 0.7rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+.lista{
+    text-transform: uppercase;
+    margin-left: 1rem;
+    color: white;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.elementi-lista{
+    margin: 1rem;
 }
