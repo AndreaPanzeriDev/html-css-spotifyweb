@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Spotify</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="assets/css/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        <div class="altezza">
-            <main class="flex">
 
-                <!--Menù laterale-->
-                <div class="menu-nav">
-                   <div class="logo">
+<head>
+    <title>Spotify</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="altezza">
+        <main class="flex">
+
+            <!--Menù laterale-->
+            <div class="menu-nav ">
+                <div class="logo">
                     <img src="assets/img/logo.svg" alt="Logo">
-                   </div>
-                   
-                   <!--Home Cerca La tua libreria-->
-                   <section>
-                     <div class="ricerche flex">
-                         <i class="fa-sharp fa-solid fa-house"></i>
-                         <p>Home</p>
-                     </div>
-                     <div class="ricerche flex">
-                         <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                         <p>Cerca</p>
-                     </div>
-                     <div class="ricerche flex">
-                        <i class="fa-solid fa-book-open"></i>
-                         <p>La tua libreria</p>
-                     </div>
-                   </section>
+                </div>
 
-                   <!--Playlist-->
-                   <section id="libreria">
+                <!--Home Cerca La tua libreria-->
+                <section>
+                    <div class="ricerche flex">
+                        <i class="fa-sharp fa-solid fa-house"></i>
+                        <p>Home</p>
+                    </div>
+                    <div class="ricerche flex">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        <p>Cerca</p>
+                    </div>
+                    <div class="ricerche flex">
+                        <i class="fa-solid fa-book-open"></i>
+                        <p>La tua libreria</p>
+                    </div>
+                </section>
+
+                <!--Playlist-->
+                <section id="libreria">
                     <div class="nav-playlist">
                         <p>PLAYLIST</p>
                         <div class="flex ricerche-playlist">
-                         <i class="fa-sharp fa-solid fa-square-plus"></i>
-                         <p>Crea Playlist</p>
+                            <i class="fa-sharp fa-solid fa-square-plus"></i>
+                            <p>Crea Playlist</p>
                         </div>
                         <ul class="creazione-playlist">
                             <li>Nuova playlist</li>
@@ -51,10 +55,10 @@
                             <li>Nuova playlist</li>
                         </ul>
                     </div>
-                   </section>
+                </section>
 
-                   <!--Installazione APP-->
-                   <section id="menu-footer">
+                <!--Installazione APP-->
+                <section id="menu-footer">
                     <div class="flex installa-app">
                         <i class="fa-sharp fa-solid fa-circle-down"></i>
                         <p>Installa App</p>
@@ -64,9 +68,10 @@
                         <i class="fa-solid fa-user"></i>
                         <h3>Andrea Panzeri</h3>
                     </div>
-                   </section>
-                </div>
+                </section>
+            </div>
 
+            <div class="centrale">
                 <!--Header upgrade-->
                 <div class="upgrade">
                     <div>
@@ -85,8 +90,77 @@
                         <li class="elementi-lista">scopri</li>
                     </ul>
                 </div>
-            
-            </main>
-        </div>
-    </body>
+
+                <!--recently played-->
+                <div class="recently-played">
+                    <h2>Recently Played</h2>
+                    <div class="flex box">
+                        <!--Box1-->
+                        <div class="cards">
+                            <img src="assets/img/metal_lifting.jpg" alt="metal_lifting">
+                            <div class="centrato nome-album">Heavy Metal</div>
+                            <div class="centrato subtitle">Subtitle</div>
+                        </div>
+                        <!--Box2-->
+                        <div class="cards">
+                            <img src="assets/img/stranger.jpeg" alt="stranger">
+                            <div class="centrato nome-album">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</div>
+                            <div class="centrato subtitle">Kyle Dixon & Michael Stein</div>
+                        </div>
+                        <!--Box3-->
+                        <div class="cards">
+                            <img src="assets/img/aquietplace.jpeg" alt="A quiet place">
+                            <div class="centrato nome-album">A quiet place</div>
+                            <div class="centrato subtitle">Subtitle</div>
+                        </div>
+                        <!--Box4-->
+                        <div class="cards">
+                            <img src="assets/img/split.jpeg" alt="Split">
+                            <div class="centrato nome-album">Split</div>
+                            <div class="centrato subtitle">Subtitle</div>
+                        </div>
+                        <!--Box5-->
+                        <div class="cards">
+                            <img src="assets/img/cure.jpeg" alt="A quiet place">
+                            <div class="centrato nome-album">A cure for wellness</div>
+                            <div class="centrato subtitle">Subtitle</div>
+                        </div>
+                        <!--Box6-->
+                        <div class="cards">
+                            <img src="assets/img/sinister.jpeg" alt="sinister">
+                            <div class="centrato nome-album">Sinister</div>
+                            <div class="centrato subtitle">Subtitle</div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <!--Creato per te-->
+                <div class="creato-per-te">
+                    <h2>Creato per Andrea Panzeri</h2>
+                    <p class="subtitle">Più ascolti, più accurati saranno i suggerimenti</p>
+                    <div class="flex box">
+                        <!--Box1-->
+                        <div class="cards">
+                            <img src="assets/img/radar.jpeg" alt="radar">
+                            <div class="centrato nome-album">Release Radar</div>
+                        </div>
+                        <!--Box2-->
+                        <div class="cards">
+                            <img src="assets/img/mixdaily.jpeg" alt="daily mix">
+                            <div class="centrato nome-album">Daily Mix</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div><p>ciao</p></div>
+            <div><p>come</p></div>
+            <div><p>stai</p></div>
+        </footer>
+    </div>
+</body>
+
 </html>
