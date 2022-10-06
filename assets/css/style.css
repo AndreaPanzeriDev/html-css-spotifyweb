@@ -251,3 +251,7 @@ footer{
     display: flex;
     align-items: center;
 }
+
+.footer-left img{
+    max-width: 100%;
+}
