@@ -242,7 +242,6 @@ footer{
     height: 10%;
     color: white;
     background-color: #282828;
-    border: 1px solid yellow;
 }
 
 .player{
@@ -261,7 +260,6 @@ footer{
 .footer-left{
     max-width: 100%;
     height: auto;
-    border: 1px solid rgb(255, 56, 89);
 }
 
 .footer-left div{
@@ -291,7 +289,7 @@ footer{
 .footer-central{
     max-width: 100%;
     height: auto;
-    border: 1px solid rgb(255, 80, 109);
+    
 }
 
 .song-play{
@@ -313,3 +311,19 @@ footer{
 /*******************************
         FOOTER  RIGHT
 ********************************/
+
+.footer-right{
+    
+    height: auto;
+    padding-right: 3vh;
+}
+
+.bar2{
+    width: 5vw;
+    height: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    align-self: center;
+    margin-left: 2vh;
+}
