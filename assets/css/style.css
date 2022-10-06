@@ -6,12 +6,14 @@
 }
 
 .altezza{
-    height: 100%;
+    height: 100vh;
     background-color: #141922;
+    border: 1px solid  red;
 }
 
 .flex{
     display: flex;
+    height: 90%;
 }
 
 
@@ -22,11 +24,12 @@
 
 .menu-nav{
     background-color: black;
-    flex-direction: column;
-    width: 15rem;
+    width: 15vw;
     overflow-y: hidden;
-    height: calc(100vh - 5rem);
-    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo{
@@ -85,15 +88,12 @@
 }
 
 
-#menu-footer{
+#app{
     color: white;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    
 }
 
 
@@ -123,8 +123,8 @@
 ********************************/
 
 .centrale{
-    width: calc(100% - 15rem);
-    overflow-x: hidden;
+    width: calc(100% - 15vw);
+    overflow-y: auto;
 }
 
 /*******************************
@@ -134,7 +134,7 @@
 .upgrade{
     position: fixed;
     z-index: 1;
-    width: calc(100% - 15rem);
+    width: calc(100% - 15vw);
     height: auto;
     padding: 2.5rem;
     background-color: black;
@@ -239,7 +239,7 @@
 
 footer{
     width: 100%;
-    height: 5rem;
+    height: 10%;
     color: white;
     background-color: #282828;
 }
