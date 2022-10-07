@@ -8,7 +8,7 @@
 .altezza{
     height: 100vh;
     background-color: #141922;
-    border: 1px solid  red;
+    
 }
 
 .flex{
@@ -270,7 +270,7 @@ footer{
 
 
 .footer-left{
-    max-width: 100%;
+    width: 20%;
     height: auto;
     align-self: center;
 }
@@ -328,6 +328,7 @@ footer{
 
 .footer-right{
     height: auto;
+    width: 20%;
 }
 
 .bar2{
