@@ -45,7 +45,7 @@
 }
 
 .ricerche{
-    color: white;
+    color: rgb(148, 148, 148);
     margin-top: 10%;
     font-size: large;
     margin-left: 1.3rem;
@@ -55,16 +55,24 @@
     margin-left: 0.7rem;
 }
 
+.ricerche:hover{
+    color: white;
+}
+
 
 /*LIBRERIA*/
 #libreria{
     margin-top: 2rem;
-    color: white;
+    color: rgb(148, 148, 148);
 }
 
 .nav-playlist{
     font-size: large;
     margin-left: 1.3rem;
+}
+
+.nav-playlist > p{
+    color: white;
 }
 
 .ricerche-playlist{
@@ -74,6 +82,10 @@
 .ricerche-playlist > p{
     margin-left: 0.7rem;
     align-self: center;
+}
+
+.ricerche-playlist:hover{
+    color: white;
 }
 
 #libreria > p{
@@ -94,9 +106,13 @@
     padding-top: 1rem;
 }
 
+.creazione-playlist li:hover{
+    color: white;
+}
+
 
 #app{
-    color: white;
+    color: rgb(148, 148, 148);
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -116,12 +132,20 @@
     margin-left: 0.7rem;
 }
 
+.installa-app:hover{
+    color: white;
+}
+
 .user{
     margin-top: 0.5rem;
 }
 
 .user h3{
     margin-left: 0.7rem;
+}
+
+.user:hover{
+    color: white;
 }
 
 
@@ -177,13 +201,17 @@
 .lista{
     text-transform: uppercase;
     margin-left: 1rem;
-    color: white;
+    color: rgb(148, 148, 148);
     list-style-type: none;
     justify-content: center;
 }
 
 .elementi-lista{
     margin: 1rem;
+}
+
+.elementi-lista:hover{
+    color: white;
 }
 
 /*******************************
@@ -378,7 +406,7 @@ footer{
 
     .hide{
         display: flex;
-        color: white;
+        color: rgb(148, 148, 148);
         flex-direction: column;
         align-items: center;
         padding-bottom: 1rem;
@@ -391,6 +419,10 @@ footer{
 
     .hide i{
         padding-top: 2rem;
+    }
+
+    .hide i:hover{
+        color: white;
     }
 
     .centrale,
