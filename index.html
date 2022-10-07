@@ -20,29 +20,37 @@
 
                 <div>
                     <!--Logo-->
-                    <div class="logo">
+                    <div class="logo show">
                         <img src="assets/img/logo.svg" alt="Logo">
                     </div>
 
                     <!--Home Cerca La tua libreria-->
                     <section>
-                        <div class="ricerche flex">
+                        <div class="ricerche flex show">
                             <i class="fa-sharp fa-solid fa-house"></i>
-                            <p>Home</p>
+                            <p class="">Home</p>
                         </div>
-                        <div class="ricerche flex">
+                        <div class="ricerche flex show">
                             <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                            <p>Cerca</p>
+                            <p class="">Cerca</p>
                         </div>
-                        <div class="ricerche flex">
+                        <div class="ricerche flex show">
                             <i class="fa-solid fa-book-open"></i>
-                            <p>La tua libreria</p>
+                            <p class="">La tua libreria</p>
                         </div>
+                        <div class="hide flex">
+                            <img src="assets/img/logo-small.svg" alt="logo">
+                            <i class="fa-sharp fa-solid fa-house"></i>
+                            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+
+
                     </section>
 
                     <!--Playlist-->
                     <section id="libreria">
-                        <div class="nav-playlist">
+                        <div class="nav-playlist show">
                             <p>PLAYLIST</p>
                             <div class="flex ricerche-playlist">
                                 <i class="fa-sharp fa-solid fa-square-plus"></i>
@@ -64,7 +72,7 @@
 
 
                 <!--Installazione APP-->
-                <section id="app">
+                <section id="app" class="show">
                     <div>
                         <div class="flex installa-app">
                             <i class="fa-sharp fa-solid fa-circle-down"></i>
